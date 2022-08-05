@@ -26,4 +26,7 @@ d = { 'settings': { 'audience': 'Developers',
                 'tst_flags': 'notest',
                 'user': 'michaelaye',
                 'version': '0.0.1'},
-  'syms': {'nbdev_nested_lib.core': {'nbdev_nested_lib.core.foo': 'https://michaelaye.github.io/nbdev_nested_lib/core.html#foo'}}}
+  'syms': { 'nbdev_nested_lib.core': {'nbdev_nested_lib.core.foo': 'https://michaelaye.github.io/nbdev_nested_lib/core.html#foo'},
+            'nbdev_nested_lib.sub.core': {'nbdev_nested_lib.sub.core.foo': 'https://michaelaye.github.io/nbdev_nested_lib/sub.core.html#foo'},
+            'nbdev_nested_lib.sub.notcore': {},
+            'nbdev_nested_lib.utils': {'nbdev_nested_lib.utils.foo': 'https://michaelaye.github.io/nbdev_nested_lib/utils.html#foo'}}}
