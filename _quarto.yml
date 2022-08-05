@@ -1,4 +1,3 @@
-
 ipynb-filters: [nbdev_filter]
 
 project:
@@ -13,25 +12,28 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 4
 
 website:
-  title: "nbdev"
+  title: "nbdev_nested_lib"
+  description: "minimal example for a nested package with submodules"
+  execute: 
+    enabled: false
   twitter-card: true
+  open-graph: true
   reader-mode: true
   repo-branch: master
-  repo-url: https://github.com/fastai/nbdev
+  repo-url: https://github.com/michaelaye/nbdev-nested-lib/
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
-    left:
-      - text: Home
-        file: index.ipynb
     right:
       - icon: github
-        href: https://github.com/fastai/nbdev/
+        href: https://github.com/michaelaye/nbdev-nested-lib/
   sidebar:
     style: "floating"
 
 metadata-files: 
   - sidebar.yml
+  - custom.yml
